@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Dongle:wght@300;700&family=Faster+One&family=Roboto:wght@100&family=Russo+One&family=Style+Script&display=swap');
 
 body{
-    background:rgb(230, 230, 230);
+    background:orangered;
     padding:0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;     
+}
+
+.banner{
+    width:360px;
+    margin: auto;
+    height: 300px;
+    background:url("../img/chair.png");
 }
 
 .navbar{
@@ -11,7 +20,7 @@ body{
     height: fit-content;
     margin: 0;
     padding:0;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
 }
 
@@ -37,26 +46,63 @@ body{
     float: right;
 }
 
+
+.menu ul{
+    margin-block-start:0;
+    margin-block-end:0;
+}
 .menu li{
     display: inline-block;
+    margin:0;
+    
+}
+
+.menu li a{
+    background:orangered;
     padding-right:20px;
+    padding-left:20px;
+    text-decoration: none;
+    color:black;
+   
+}
+.menu li a:hover{
+    background: rgb(95, 120, 220);
+    color: white;
+}
+.heading{
+    color: white;
+    width: fit-content;
+    margin:0 auto;
+    padding:10px;
+}
+
+
+
+.container{
+    width:100%;
 }
 
 .content{
+    font-family: 'Russo One', sans-serif;
     margin: auto;
-    background: rgba(14, 13, 0, 0.953);
-    color: rgba(255, 255, 255, 0.953);
+    
+    color: rgb(250, 248, 248);
+    font-weight: bold;
     margin-top: 30px;
-    width:fit-content;
-    padding:15px;
+    width:100%;
     text-align: center;
+    position: relative;
+    top: 30%;
 
 }
 
 
 .content h1{
     margin:0;
+    background: rgba(0, 0, 0, 0.474);
+    
 }
+
 .content h1 span{
     color: crimson;
     
@@ -64,18 +110,52 @@ body{
 }
 
 .content h4{
+    color: rgb(2, 7, 28);
+    background: rgba(255, 255, 255, 0.713);
+    font-style: italic;
     text-align: center;
     margin:0;
 }
 
 .logo{
-    height: 150px;
+    display: block;
     margin: auto;
+    height: 150px;
+   
     
 }
 
+
+
 .column{
-    width:33%;
+    width:33.3%;
     float:left;
     background:white;
+    min-height:450px;
+    margin: 0;
+}
+
+.column h1{
+    text-align: center;
+}
+
+.column div{
+    width:90%;
+    margin: auto;
+}
+.screenshot{
+    display: block;
+    margin: auto;
+    width:90%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr td{
+    border:solid black 1px;
+    width :70%;
+    margin: auto;
+    padding: 5px;
 }
