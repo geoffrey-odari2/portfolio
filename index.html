@@ -8,52 +8,34 @@
         <header>
             <nav>
                 <ul class="menu">
-                    <li><a class="menu-link" href="index.html">Home</a></li>
-                    <li><a class="menu-link" href="projects.html">Projects</a></li>
-                    <li><a class="menu-link" href="about.html">About</a></li>
+                    <li><a class="menu-link" href="index.html#home">Home</a></li>
+                    <li><a class="menu-link" href="index.html#projects">Projects</a></li>
+                    <li><a class="menu-link" href="#about">About</a></li>
                 </ul>
             </nav>
         </header>
         
-        <section>
+        <section id="home">
+             <div class="banner">
+                <img class="main-image" src="img/chair2.png">
+                
+                <div class="intro">
+                    <h1><span>GEOFFREY </span>_ ODARI<h1>
+                    <h4>Simplicity by Design</h4>
+                    <img src="img/linkedin.png"/>
+                    <img src="img/github.png"/>
+                    <img src="img/whatsapp.png"/>
+
+                    <p>I design <em>simple</em> but beautiful professional and functional websites</p>
+                </div>
+             
+             </div>       
             
-                <div class="banner">
-                    
-                </div>    
-            
-            <div class="column">
-                <img src="img/HTML5.svg" class="logo">
-                <ul>
-                    <li>Cleaner markup/ Improved code</li>
-                    <li>Elegant forms</li>
-                    <li>Consistency</li>
-                    <li>rich media elements: </li>
-                </ul>
-            </div>
-            <div class="column">    
-                <img src="img/CSS3.svg" class="logo">
-                <ul>
-                    <li>Easier to maintain and update</li>
-                    <li>Greater consistency in design</li>
-                    <li>More formatting options</li>
-                    <li>Lightweight code</li>
-                    <li>Search engine optimization</li>
-                </ul>
-            </div>
-            <div class="column">   
-                <img src="img/JS.svg" class="logo">
-                <ul>
-                    <li>Speed</li>
-                    <li>Simplicity</li>
-                    <li>Popularity</li>
-                    <li>Interoperability</li>
-                    <li>Low Server Load</li>
-                </ul>
-            </div>
+           
         </section>
         <!--Projects Section-->
-        <section>
-            <h1 class="heading">About</h1>
+        <section id="projects">
+            <h1 class="heading">Projects</h1>
 
             <div class="column">
                 <h1>Famous Resort</h1>
@@ -78,8 +60,8 @@
         <!--Projects Section End-->
 
         <!--About Me Section-->
-        <section>
-            <h1 class="heading">About</h1>
+        <section id="about">
+            <h1 class="heading">About me</h1>
             
             <div class="column">
                 <h1>Background</h1>
@@ -100,35 +82,27 @@
                 </ul>
             </div>
             <div class="column">   
-                <h1>Contacts</h1>
-                <img src="img/contacts.png" class="logo">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td>Website</td>
-                            <td>https://www.linkedin.com/in/geoffrey-ochenge-18631b198/</td>
-                        </tr>
-                        <tr>
-                            <td>Github</td>
-                            <td>https://github.com/geoffreyodari/</td>
-                        </tr>
-                        <tr>
-                            <td>Linkedin</td>
-                            <td>https://www.linkedin.com/in/geoffrey-ochenge-18631b198/</td>
-                        </tr>
-                        <tr>
-                            <td>Email</td>
-                            <td>geoffrey.ochenge@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td>Phone</td>
-                            <td>+254721516725</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h1>Contact me</h1>
+                <div class="registration">
+                    <p>Register here to get a quote</p>
+                    <div>
+                        <label>Name</label>
+                        <input type="text"/>
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text"/>
+                    </div>
+                    <div>
+                        <button>Submit</button>
+                    </div>                        
+                </div> 
             </div>   
 
         </section> 
-        <!--About Me Section End-->   
+        <!--About Me Section End-->
+        <div class="footer">
+
+        </div>   
     </body>
 </html>
