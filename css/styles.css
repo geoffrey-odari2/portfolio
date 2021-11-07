@@ -1,37 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Asset&family=Dongle:wght@300;700&family=Faster+One&family=Roboto:wght@100&family=Russo+One&family=Style+Script&display=swap');
 
 body{
-    background:orangered;
+    background:rgb(238, 101, 52);
     padding:0;
     margin: 0;
     font-family: 'Roboto', sans-serif;     
 }
 
-.banner{
-    width:360px;
-    margin: auto;
-    height: 300px;
-    background:url("../img/chair.png");
+header{
+    background: orangered;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+
 }
 
-.navbar{
-    background:rgba(255, 255, 255, 0.83);
+nav{
+   
     width:100%;
     height: fit-content;
     margin: 0;
-    padding:0;
+    padding:5px;
     font-size: x-large;
     font-weight: bold;
 }
 
-.navbar h4{
+nav h4{
     margin:0;
     padding:0;
     display:inline-block;
 
 }
 
-.navbar::after {
+nav::after {
     content: "";
     clear: both;
     display: table;
@@ -42,15 +44,13 @@ body{
 
 .menu{
     list-style: none;
-    margin:0;
-    float: right;
+    width:fit-content;
+    margin: auto;
+    
 }
 
 
-.menu ul{
-    margin-block-start:0;
-    margin-block-end:0;
-}
+
 .menu li{
     display: inline-block;
     margin:0;
@@ -66,7 +66,7 @@ body{
    
 }
 .menu li a:hover{
-    background: rgb(95, 120, 220);
+    border-bottom:solid white 5px;
     color: white;
 }
 .heading{
@@ -75,6 +75,20 @@ body{
     margin:0 auto;
     padding:10px;
 }
+
+section{
+    margin-top: 50px;
+}
+
+
+.banner{
+    width:360px;
+    margin: auto;
+    height: 300px;
+    background:url("../img/chair.png");
+}
+
+
 
 
 
@@ -120,9 +134,7 @@ body{
 .logo{
     display: block;
     margin: auto;
-    height: 150px;
-   
-    
+    height: 150px;    
 }
 
 
