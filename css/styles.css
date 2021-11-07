@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Asset&family=Dongle:wght@300;700&family=Faster+One&family=Roboto:wght@100&family=Russo+One&family=Style+Script&display=swap');
 
 body{
-    background:rgb(238, 101, 52);
+    background:#CC5803;
     padding:0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;     
+    font-family: 'Russo One',sans-serif; 
+    color:#1F1300;    
 }
 
 header{
-    background: orangered;
+    background: #ffc15e;
     position: fixed;
     top: 0;
     width: 100%;
     height: 50px;
+    z-index: 100;
 
 }
 
@@ -33,13 +35,6 @@ nav h4{
 
 }
 
-nav::after {
-    content: "";
-    clear: both;
-    display: table;
-    
-  }
-
 
 
 .menu{
@@ -58,16 +53,16 @@ nav::after {
 }
 
 .menu li a{
-    background:orangered;
     padding-right:20px;
     padding-left:20px;
     text-decoration: none;
     color:black;
    
 }
+
 .menu li a:hover{
-    border-bottom:solid white 5px;
-    color: white;
+    border-bottom:solid #cc5803 5px;
+    color: #cc5803;
 }
 .heading{
     color: white;
@@ -77,19 +72,81 @@ nav::after {
 }
 
 section{
-    margin-top: 50px;
+    padding-top: 50px;
+    min-height: 100vh;
 }
 
 
 .banner{
-    width:360px;
-    margin: auto;
-    height: 300px;
-    background:url("../img/chair.png");
+    width: 100%;
+    position: relative;
+    top:200px;
+    
 }
 
 
+.main-image{
+    display:block;
+    float:left;
+    position: relative;
+    top:0px;
+    width:320px;   
+    
+}
 
+.intro{
+    width:30%;
+    margin:auto;
+    text-align: center;
+    font-family: 'Russo One',sans-serif;
+    background-color: #ffffff79;
+    border:solid 1px red;   
+}
+
+.intro h1{
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.494);
+    color: #ffffff; 
+}
+
+.intro h1 span{
+    color: crimson;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin:0;
+}
+
+.intro h4{
+    padding:0;
+    margin: 0;
+}
+
+.intro img{
+    height:40px;
+}
+
+.registration{
+    width:100%;      
+}
+
+.registration div{
+        margin: auto;
+        width: fit-content;
+        padding:10px;
+}
+
+.registration div input{
+    border: none;
+    display:block;
+     width: 100%;
+}
+
+.registration div button{
+    width:100%;
+    border: none;
+    background: #ffc15e;
+}
 
 
 .container{
@@ -98,8 +155,7 @@ section{
 
 .content{
     font-family: 'Russo One', sans-serif;
-    margin: auto;
-    
+    margin: auto;  
     color: rgb(250, 248, 248);
     font-weight: bold;
     margin-top: 30px;
@@ -137,18 +193,22 @@ section{
     height: 150px;    
 }
 
-
+.heading{
+    font-family: 'Russo One',sans-serif;
+}
 
 .column{
     width:33.3%;
     float:left;
-    background:white;
+    background:#F7934C;
     min-height:450px;
     margin: 0;
+    font-weight: bold;
 }
 
 .column h1{
     text-align: center;
+    
 }
 
 .column div{
@@ -163,11 +223,63 @@ section{
 
 table{
     border-collapse: collapse;
+    width :60%;
 }
 
-table tr td{
+table td{
     border:solid black 1px;
-    width :70%;
+    
     margin: auto;
     padding: 5px;
 }
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffc15e;
+    height:50px;
+    text-align: center;
+ }
+
+
+
+
+
+@media screen and (max-width:810px){
+
+
+    section{
+        padding-top: 0;
+        min-height:100vh;
+    }
+
+
+
+    .main-image{
+        display:none;  
+    }
+
+
+   
+    
+    
+    .intro{
+        width:100%
+
+    }
+    
+    
+    
+    
+    .column{
+        width:100%;
+        float:none;
+        margin: 0;
+    }
+    
+}
+
+
