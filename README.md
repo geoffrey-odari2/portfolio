@@ -2,8 +2,12 @@
 #### Geoffrey Odari's portfolio Landing page
 #### By Geoffrey Odari
 ## Description
-This is a website containing 
+This is a website containing a list of projects I have created
+
+## URL
+
 ## Setup/Installation Requirements
+To install it on your local computer you will need
 * Web server
 * GIT 
 ### Installation
