@@ -12,5 +12,5 @@ This is a website containing
 * Run the command: git clone https://github.com/geoffrey-odari2/portfolio.git
 
 
-### Licence
+## Licence
 * This project is licensed under the terms of the MIT license.
