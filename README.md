@@ -5,6 +5,7 @@
 This is a website containing a list of projects I have created
 
 ## URL
+The site is published at http://geoffrey-odari2.github.io/portfolio/
 
 ## Setup/Installation Requirements
 To install it on your local computer you will need
